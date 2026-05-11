@@ -1,5 +1,5 @@
 {
-  "player": "libplayer.so",
+  "player": "314.so",
   "warningText": "小范围使用，严禁外传。",
   "logo": "./xf/1.png",
   "spider": "./chaquopy/stdlib0.imy;md5;83b66c8fe8d7b6c23a795eb7ec71358b",
