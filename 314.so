@@ -7,7 +7,7 @@
   "sites": [
     {
       "key": "永乐视频",
-      "name": "🎬栀子┃影视",
+      "name": "🎬栀子影视",
       "type": 4,
       "api": "http://zhangqun1818.serv00.net:6628/?spider=永乐视频",
       "searchable": 1,
@@ -20,7 +20,7 @@
     { "api": "./xf/py/好看短剧.py", "filterable": 1, "key": "py_好看短剧", "name": "🎦好看短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
     { "api": "./xf/py/喜福短剧.py", "filterable": 1, "key": "py_喜福短剧", "name": "🎦喜福短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
     { "api": "./xf/py/五五短剧.py", "filterable": 1, "key": "py_五五短剧", "name": "🎦五五短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
-    { "api": "./xf/py/围观短剧.py", "filterable": 1, "key": "py_围观短剧", "name": "🎦围观短剧", "quickSearch": 1, "searchable": 1, "type": 3 },    
+    { "api": "./xf/py/围观短剧.py", "filterable": 1, "key": "py_围观短剧", "name": "🎦围观短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
     { "key": "cj_旺旺短剧", "name": "🎦旺旺短剧", "type": 1, "api": "https://api.wwzy.tv/api.php/provide/vod/" },
     { "key": "cj_牛牛短剧", "name": "🎦牛牛短剧", "type": 1, "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/json", "categories": ["有声动漫", "女频恋爱", "反转爽剧", "古装仙侠", "年代穿越", "脑洞悬疑", "现代都市"], "more": { "sourceTag": "[订阅]" } },
     { "key": "cj_暴风资源", "name": "🎦暴风短剧", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod", "searchable": 0, "quickSearch": 1, "filterable": 1, "playerType": 2, "categories": ["反转爽文", "穿越年代", "重生民国", "现代言情", "女恋总裁", "都市脑洞", "闪婚离婚", "古装仙侠"] },
