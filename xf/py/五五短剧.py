@@ -133,7 +133,7 @@ class Spider(Spider):
 
                 id = vod['href']
 
-                result["class"].append({"type_id": id, "type_name": "集多🌠" + name})
+                result["class"].append({"type_id": id, "type_name": "先锋🌠" + name})
 
         return result
 
@@ -168,7 +168,7 @@ class Spider(Spider):
                     "vod_id": id,
                     "vod_name": name,
                     "vod_pic": pic,
-                    "vod_remarks": '集多▶️' + remark
+                    "vod_remarks": '先锋▶️' + remark
                         }
                 videos.append(video)
 
@@ -214,7 +214,7 @@ class Spider(Spider):
                     "vod_id": id,
                     "vod_name": name,
                     "vod_pic": pic,
-                    "vod_remarks": '集多▶️' + remark
+                    "vod_remarks": '先锋▶️' + remark
                         }
                 videos.append(video)
 
@@ -247,7 +247,7 @@ class Spider(Spider):
         name = self.extract_middle_text(code, "s1='", "'", 0)
         Jumps = self.extract_middle_text(code, "s2='", "'", 0)
 
-        content = '集多为您介绍剧情📢' + self.extract_middle_text(res, 'introduction_introEllipsis" style="">', '<', 0)
+        content = '先锋为您介绍剧情📢' + self.extract_middle_text(res, 'introduction_introEllipsis" style="">', '<', 0)
         content = content.replace(' ', '').replace('\n', '')
 
         names = doc.find('div', class_="dramaDetail_tagsBox")

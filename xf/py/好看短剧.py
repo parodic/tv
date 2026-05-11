@@ -85,12 +85,12 @@ class Spider(Spider):
         for vod in data['data']['playlet_tags']:
             classes.append({
                 "type_id": vod['tag_id'],
-                "type_name": "集多🌠" + vod['name']
+                "type_name": "云逸🌠" + vod['name']
             })
         return classes
 
     def _add_extra_class(self, classes):
-        classes.append({"type_id": 2, "type_name": "集多🌠新剧"})
+        classes.append({"type_id": 2, "type_name": "云逸🌠新剧"})
 
     def categoryContent(self, cid, pg, filter, ext):
         page = int(pg) if pg else 1
@@ -260,7 +260,7 @@ class Spider(Spider):
         return ''
 
     def _build_video_item(self, did, bofang):
-        return {"vod_id": did,"vod_play_from": "集多好看专线","vod_play_url": bofang}
+        return {"vod_id": did,"vod_play_from": "云逸好看专线","vod_play_url": bofang}
 
     def playerContent(self, flag, id, vipFlags):
         result = {}

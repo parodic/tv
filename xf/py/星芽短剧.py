@@ -156,11 +156,11 @@ class Spider(Spider):
 
     def homeContent(self, filter):
         result = {}
-        result = {"class": [{"type_id": "1", "type_name": "集多🌠剧场"},
-                            {"type_id": "3", "type_name": "集多🌠新剧"},
-                            {"type_id": "2", "type_name": "集多🌠热播"},
-                            {"type_id": "7", "type_name": "集多🌠星选"},
-                            {"type_id": "5", "type_name": "集多🌠阳光"}],
+        result = {"class": [{"type_id": "1", "type_name": "先锋🌠剧场"},
+                            {"type_id": "3", "type_name": "先锋🌠新剧"},
+                            {"type_id": "2", "type_name": "先锋🌠热播"},
+                            {"type_id": "7", "type_name": "先锋🌠星选"},
+                            {"type_id": "5", "type_name": "先锋🌠阳光"}],
                   }
 
         return result
@@ -188,7 +188,7 @@ class Spider(Spider):
                     "vod_id": id,
                     "vod_name": name,
                     "vod_pic": pic,
-                    "vod_remarks": '集多▶️' + remark
+                    "vod_remarks": '先锋▶️' + remark
                         }
                 videos.append(video)
 
@@ -219,7 +219,7 @@ class Spider(Spider):
                     "vod_id": id,
                     "vod_name": name,
                     "vod_pic": pic,
-                    "vod_remarks": '集多▶️' + remark
+                    "vod_remarks": '先锋▶️' + remark
                         }
                 videos.append(video)
 
@@ -250,7 +250,7 @@ class Spider(Spider):
         name = self.extract_middle_text(code, "s1='", "'", 0)
         Jumps = self.extract_middle_text(code, "s2='", "'", 0)
 
-        content = '集多🎉为您介绍剧情📢' + data['data']['introduction']
+        content = '先锋🎉为您介绍剧情📢' + data['data']['introduction']
 
         area = data['data']['desc_tags'][0]
 
@@ -270,7 +270,7 @@ class Spider(Spider):
 
             bofang = bofang[:-1]
 
-            xianlu = '集多专线'
+            xianlu = '先锋专线'
 
         videos.append({
             "vod_id": did,
@@ -321,7 +321,7 @@ class Spider(Spider):
                     "vod_id": id,
                     "vod_name": name,
                     "vod_pic": pic,
-                    "vod_remarks": '集多▶️' + remark
+                    "vod_remarks": '先锋▶️' + remark
                         }
                 videos.append(video)
 
