@@ -81,7 +81,7 @@
     },
     {
       "key": "酷酷视频",
-      "name": "🐶🐕🐈酷往今来",
+      "name": "🐕酷往今来",
       "type": 3,
       "api": "./xf/js/drpy2.min.js",
       "ext": "./xf/js/YKSP.js"
