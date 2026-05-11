@@ -76,32 +76,32 @@
       "key": "腾腾视频",
       "name": "🐧腾云驾雾",
       "type": 3,
-      "api": "./xf/js/drpy2.min.js",
-      "jar": "./xf/jar/.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
-      "ext": "./xf/js/TXSP.js"
+      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+      "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260508/7agk/0X0/05081210.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
+      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/TXSP.js"
     },
     {
       "key": "酷酷视频",
       "name": "🐕酷往今来",
       "type": 3,
-      "api": "./xf/js/drpy2.min.js",
-      "jar": "./xf/jar/.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
+      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+      "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260508/7agk/0X0/05081210.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
       "ext": "./xf/js/YKSP.js"
     },
     {
       "key": "果果视频",
       "name": "🥭百忙无果",
       "type": 3,
-      "api": "./xf/js/drpy2.min.js",
-      "jar": "./xf/jar/.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
+      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+      "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260508/7agk/0X0/05081210.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
       "ext": "./xf/js/MGSP.js"
     },
     {
       "key": "奇奇视频",
       "name": "🥝奇珍异兽",
       "type": 3,
-      "api": "./xf/js/drpy2.min.js",
-      "jar": "./xf/jar/.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
+      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+      "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260508/7agk/0X0/05081210.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
       "ext": "./xf/js/AQY.js"
     },    
     {"key":"cj_派友影视","name":"🎬派友影视","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
