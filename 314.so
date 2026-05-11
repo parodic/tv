@@ -1,7 +1,7 @@
 {
-  "player": "314.so",
+  "player": "libplayer.so",
   "warningText": "小范围使用，严禁外传。",
-  "logo": "./xf/1.gif",
+  "logo": "./xf/1.png",
   "spider": "./chaquopy/stdlib0.imy;md5;83b66c8fe8d7b6c23a795eb7ec71358b",
   "wallpaper": "https://pictures.catvod.eu.org/",
   "sites": [
@@ -14,17 +14,17 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    { "api": "./xf/py/星芽短剧.py", "filterable": 1, "key": "py_星芽短剧", "name": "🎦星芽┃短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
-    { "api": "./xf/py/七猫短剧.py", "filterable": 1, "key": "py_七猫短剧", "name": "🎦七猫┃短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
-    { "api": "./xf/py/短剧网站.py", "filterable": 1, "key": "py_短剧网站", "name": "🎦网站┃短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
-    { "api": "./xf/py/好看短剧.py", "filterable": 1, "key": "py_好看短剧", "name": "🎦好看┃短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
-    { "api": "./xf/py/喜福短剧.py", "filterable": 1, "key": "py_喜福短剧", "name": "🎦喜福┃短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
-    { "api": "./xf/py/围观短剧.py", "filterable": 1, "key": "py_围观短剧", "name": "🎦围观┃短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
-    { "api": "./xf/py/五五短剧.py", "filterable": 1, "key": "py_五五短剧", "name": "🎦五五┃短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
-    { "key": "cj_旺旺短剧", "name": "🎦旺旺 | 短剧", "type": 1, "api": "https://api.wwzy.tv/api.php/provide/vod/" },
-    { "key": "cj_牛牛短剧", "name": "🎦牛牛┃短剧", "type": 1, "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/json", "categories": ["有声动漫", "女频恋爱", "反转爽剧", "古装仙侠", "年代穿越", "脑洞悬疑", "现代都市"], "more": { "sourceTag": "[订阅]" } },
-    { "key": "cj_暴风资源", "name": "🎦暴风┃短剧", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod", "searchable": 0, "quickSearch": 1, "filterable": 1, "playerType": 2, "categories": ["反转爽文", "穿越年代", "重生民国", "现代言情", "女恋总裁", "都市脑洞", "闪婚离婚", "古装仙侠"] },
-    { "key": "cj_索尼资源", "name": "🎦索尼┃短剧", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/", "searchable": 0, "quickSearch": 1, "filterable": 1, "playerType": 2, "categories": ["反转爽剧", "女频恋爱", "脑洞悬疑", "年代穿越", "古装仙侠", "现代都市"] },
+    { "api": "./xf/py/星芽短剧.py", "filterable": 1, "key": "py_星芽短剧", "name": "🎦星芽短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
+    { "api": "./xf/py/七猫短剧.py", "filterable": 1, "key": "py_七猫短剧", "name": "🎦七猫短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
+    { "api": "./xf/py/短剧网站.py", "filterable": 1, "key": "py_短剧网站", "name": "🎦网站短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
+    { "api": "./xf/py/好看短剧.py", "filterable": 1, "key": "py_好看短剧", "name": "🎦好看短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
+    { "api": "./xf/py/喜福短剧.py", "filterable": 1, "key": "py_喜福短剧", "name": "🎦喜福短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
+    { "api": "./xf/py/五五短剧.py", "filterable": 1, "key": "py_五五短剧", "name": "🎦五五短剧", "quickSearch": 1, "searchable": 1, "type": 3 },
+    { "api": "./xf/py/围观短剧.py", "filterable": 1, "key": "py_围观短剧", "name": "🎦围观短剧", "quickSearch": 1, "searchable": 1, "type": 3 },    
+    { "key": "cj_旺旺短剧", "name": "🎦旺旺短剧", "type": 1, "api": "https://api.wwzy.tv/api.php/provide/vod/" },
+    { "key": "cj_牛牛短剧", "name": "🎦牛牛短剧", "type": 1, "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/json", "categories": ["有声动漫", "女频恋爱", "反转爽剧", "古装仙侠", "年代穿越", "脑洞悬疑", "现代都市"], "more": { "sourceTag": "[订阅]" } },
+    { "key": "cj_暴风资源", "name": "🎦暴风短剧", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod", "searchable": 0, "quickSearch": 1, "filterable": 1, "playerType": 2, "categories": ["反转爽文", "穿越年代", "重生民国", "现代言情", "女恋总裁", "都市脑洞", "闪婚离婚", "古装仙侠"] },
+    { "key": "cj_索尼资源", "name": "🎦索尼短剧", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/", "searchable": 0, "quickSearch": 1, "filterable": 1, "playerType": 2, "categories": ["反转爽剧", "女频恋爱", "脑洞悬疑", "年代穿越", "古装仙侠", "现代都市"] },
     {
       "key": "酷狗",
       "name": "🎵酷狗音乐",
@@ -72,38 +72,6 @@
       "ext": "https://bind.315999.xyz/89.txt|#getapp@TMD@2025|120",
       "jar": "./xf/jar/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png;md5;9c8e45f60d3d413d8b140ec21811deb0"
     },
-    {
-      "key": "腾腾视频",
-      "name": "🐧腾云驾雾",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260508/7agk/0X0/05081210.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/TXSP.js"
-    },
-    {
-      "key": "酷酷视频",
-      "name": "🐕酷往今来",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260508/7agk/0X0/05081210.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
-      "ext": "./xf/js/YKSP.js"
-    },
-    {
-      "key": "果果视频",
-      "name": "🥭百忙无果",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260508/7agk/0X0/05081210.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
-      "ext": "./xf/js/MGSP.js"
-    },
-    {
-      "key": "奇奇视频",
-      "name": "🥝奇珍异兽",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260508/7agk/0X0/05081210.png;md5;8a8213eddbde0f6ec8bb00839e67521c",      
-      "ext": "./xf/js/AQY.js"
-    },    
     {"key":"cj_派友影视","name":"🎬派友影视","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"cj_爱奇快艺","name":"🎬爱奇快艺","type":1,"api":"https://iqiyizyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"cj_魔都动漫","name":"🎬魔都动漫","type":1,"api":"https://www.mdzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
